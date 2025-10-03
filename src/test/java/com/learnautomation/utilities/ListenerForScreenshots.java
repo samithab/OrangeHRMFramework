@@ -18,3 +18,4 @@ public class ListenerForScreenshots extends BaseClass implements ITestListener {
     }
 
 }
+
