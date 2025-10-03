@@ -9,7 +9,7 @@ public class ListenerForScreenshots extends BaseClass implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result) {
         System.out.println("Test Failed: " + result.getName());
-
+//This is a new comment
         if(BaseClass.driver != null) {
             ScreenshotsHelper.takeScreenshot(BaseClass.driver, result.getName());
         } else {
