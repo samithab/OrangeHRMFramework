@@ -13,7 +13,7 @@ public class ListenerForScreenshots extends BaseClass implements ITestListener {
         if(BaseClass.driver != null) {
             ScreenshotsHelper.takeScreenshot(BaseClass.driver, result.getName());
         } else {
-            System.out.println("Driver is null. Screenshot not captured.");
+            System.out.println("Driver is null. Screenshot not captured Test.");
         }
     }
 
